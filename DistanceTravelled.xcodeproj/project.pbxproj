@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BB55EB920E11669004CBDF1 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB55EB820E11669004CBDF1 /* loginVC.swift */; };
+		3BF1743B20E11FD400832A08 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BF1743A20E11FD400832A08 /* GoogleService-Info.plist */; };
+		3BF2EE4320E120F700789F9D /* FirebaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF2EE4220E120F700789F9D /* FirebaseHandler.swift */; };
+		450EFF2B1EA707EA00E7B981 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EFF2A1EA707EA00E7B981 /* AppDelegate.swift */; };
+		450EFF2D1EA707EA00E7B981 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450EFF2C1EA707EA00E7B981 /* ViewController.swift */; };
+		450EFF301EA707EA00E7B981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450EFF2E1EA707EA00E7B981 /* Main.storyboard */; };
+		450EFF321EA707EA00E7B981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450EFF311EA707EA00E7B981 /* Assets.xcassets */; };
+		450EFF351EA707EA00E7B981 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450EFF331EA707EA00E7B981 /* LaunchScreen.storyboard */; };
+		E420B00D45AFFF0A1F6EC9E0 /* Pods_DistanceTravelled.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B866E3C8E621B98CD226EBA /* Pods_DistanceTravelled.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BB55EB820E11669004CBDF1 /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		3BF1743A20E11FD400832A08 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3BF2EE4220E120F700789F9D /* FirebaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHandler.swift; sourceTree = "<group>"; };
+		450EFF271EA707EA00E7B981 /* DistanceTravelled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistanceTravelled.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		450EFF2A1EA707EA00E7B981 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		450EFF2C1EA707EA00E7B981 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		450EFF2F1EA707EA00E7B981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		450EFF311EA707EA00E7B981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		450EFF341EA707EA00E7B981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		450EFF361EA707EA00E7B981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C107C4EF44D0B38B1291A3A /* Pods-DistanceTravelled.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceTravelled.release.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceTravelled/Pods-DistanceTravelled.release.xcconfig"; sourceTree = "<group>"; };
+		6B866E3C8E621B98CD226EBA /* Pods_DistanceTravelled.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DistanceTravelled.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A636F1A99E2CF5042234B464 /* Pods-DistanceTravelled.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DistanceTravelled.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DistanceTravelled/Pods-DistanceTravelled.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		450EFF241EA707EA00E7B981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E420B00D45AFFF0A1F6EC9E0 /* Pods_DistanceTravelled.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BF2EE4120E120D900789F9D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3BF2EE4220E120F700789F9D /* FirebaseHandler.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		450EFF1E1EA707EA00E7B981 = {
+			isa = PBXGroup;
+			children = (
+				450EFF291EA707EA00E7B981 /* DistanceTravelled */,
+				450EFF281EA707EA00E7B981 /* Products */,
+				DA36E92E72CE0F39D964FA09 /* Pods */,
+				611C6E2852CB7BB5B01B3B43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		450EFF281EA707EA00E7B981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450EFF271EA707EA00E7B981 /* DistanceTravelled.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450EFF291EA707EA00E7B981 /* DistanceTravelled */ = {
+			isa = PBXGroup;
+			children = (
+				3BF2EE4120E120D900789F9D /* Utils */,
+				450EFF2A1EA707EA00E7B981 /* AppDelegate.swift */,
+				450EFF2C1EA707EA00E7B981 /* ViewController.swift */,
+				450EFF2E1EA707EA00E7B981 /* Main.storyboard */,
+				450EFF311EA707EA00E7B981 /* Assets.xcassets */,
+				450EFF331EA707EA00E7B981 /* LaunchScreen.storyboard */,
+				450EFF361EA707EA00E7B981 /* Info.plist */,
+				3BB55EB820E11669004CBDF1 /* loginVC.swift */,
+				3BF1743A20E11FD400832A08 /* GoogleService-Info.plist */,
+			);
+			path = DistanceTravelled;
+			sourceTree = "<group>";
+		};
+		611C6E2852CB7BB5B01B3B43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B866E3C8E621B98CD226EBA /* Pods_DistanceTravelled.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA36E92E72CE0F39D964FA09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A636F1A99E2CF5042234B464 /* Pods-DistanceTravelled.debug.xcconfig */,
+				5C107C4EF44D0B38B1291A3A /* Pods-DistanceTravelled.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		450EFF261EA707EA00E7B981 /* DistanceTravelled */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450EFF391EA707EA00E7B981 /* Build configuration list for PBXNativeTarget "DistanceTravelled" */;
+			buildPhases = (
+				F018EF9AA95D5B5BC9C27B87 /* [CP] Check Pods Manifest.lock */,
+				450EFF231EA707EA00E7B981 /* Sources */,
+				450EFF241EA707EA00E7B981 /* Frameworks */,
+				450EFF251EA707EA00E7B981 /* Resources */,
+				54884E08EE701C2517DFADF7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DistanceTravelled;
+			productName = DistanceTravelled;
+			productReference = 450EFF271EA707EA00E7B981 /* DistanceTravelled.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		450EFF1F1EA707EA00E7B981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Leonardo Savio Dabus";
+				TargetAttributes = {
+					450EFF261EA707EA00E7B981 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = BZ8CZX2S9L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 450EFF221EA707EA00E7B981 /* Build configuration list for PBXProject "DistanceTravelled" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 450EFF1E1EA707EA00E7B981;
+			productRefGroup = 450EFF281EA707EA00E7B981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450EFF261EA707EA00E7B981 /* DistanceTravelled */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		450EFF251EA707EA00E7B981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450EFF351EA707EA00E7B981 /* LaunchScreen.storyboard in Resources */,
+				3BF1743B20E11FD400832A08 /* GoogleService-Info.plist in Resources */,
+				450EFF321EA707EA00E7B981 /* Assets.xcassets in Resources */,
+				450EFF301EA707EA00E7B981 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54884E08EE701C2517DFADF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DistanceTravelled/Pods-DistanceTravelled-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DistanceTravelled/Pods-DistanceTravelled-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F018EF9AA95D5B5BC9C27B87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DistanceTravelled-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		450EFF231EA707EA00E7B981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450EFF2D1EA707EA00E7B981 /* ViewController.swift in Sources */,
+				3BB55EB920E11669004CBDF1 /* loginVC.swift in Sources */,
+				450EFF2B1EA707EA00E7B981 /* AppDelegate.swift in Sources */,
+				3BF2EE4320E120F700789F9D /* FirebaseHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		450EFF2E1EA707EA00E7B981 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450EFF2F1EA707EA00E7B981 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		450EFF331EA707EA00E7B981 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450EFF341EA707EA00E7B981 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		450EFF371EA707EA00E7B981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		450EFF381EA707EA00E7B981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		450EFF3A1EA707EA00E7B981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A636F1A99E2CF5042234B464 /* Pods-DistanceTravelled.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ8CZX2S9L;
+				INFOPLIST_FILE = DistanceTravelled/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dabus.tv.DistanceTravelled2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		450EFF3B1EA707EA00E7B981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C107C4EF44D0B38B1291A3A /* Pods-DistanceTravelled.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZ8CZX2S9L;
+				INFOPLIST_FILE = DistanceTravelled/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dabus.tv.DistanceTravelled2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		450EFF221EA707EA00E7B981 /* Build configuration list for PBXProject "DistanceTravelled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450EFF371EA707EA00E7B981 /* Debug */,
+				450EFF381EA707EA00E7B981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450EFF391EA707EA00E7B981 /* Build configuration list for PBXNativeTarget "DistanceTravelled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450EFF3A1EA707EA00E7B981 /* Debug */,
+				450EFF3B1EA707EA00E7B981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 450EFF1F1EA707EA00E7B981 /* Project object */;
+}
