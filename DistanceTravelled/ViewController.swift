@@ -52,6 +52,8 @@ class ViewController: UIViewController,  CLLocationManagerDelegate {
         self.locationManager.stopUpdatingLocation()
         
         FirebaseHandler.addTrip(username: self.username, distance: distanceLabel.text ?? "", amount: straightLabel.text ?? "")
+        
+        self.showMessage(distanceLabel.text ?? "", straightLabel.text ?? "")
     }
     
     func updateDistance(distance: Double) {
@@ -97,5 +99,13 @@ class ViewController: UIViewController,  CLLocationManagerDelegate {
         
         self.straightLabel.clipsToBounds = true
         self.straightLabel.layer.cornerRadius = 5.0
+    }
+    
+    func showMessage(_ distance: String, _ amount: String) {
+        let message = "\nTotal Distance: \(distance)\n\nTotal Amount: \(amount)"
+        let alert = UIAlertController(title: "Summary", message: message, preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alert.addAction(action)
+        self.present(alert, animated: true, completion: nil)
     }
 }
